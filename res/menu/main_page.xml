@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.finalassignment.MainPage" >
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"/>
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalAssignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_mainpage">Mainpage</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_log">Log</string>
+    <string name="title_activity_calorie__logs">Calorie_Logs</string>
+    <string name="title_activity_help">help</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalassignment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_tab_runner"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:label="Calorie Tracker" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Log"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name=".Calorie_Logs"
+            android:label="@string/title_activity_calorie__logs" >
+        </activity>
+        
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help" 
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+    </application>
+
+</manifest>
